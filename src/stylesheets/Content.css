@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7em;
+  margin-bottom: 4em;
+  max-width: 10em;
+}
+
+#gif img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
