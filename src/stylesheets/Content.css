@@ -35,6 +35,8 @@ img#gif {
 #image4 {
   margin-top: 7em;
   max-width: 130px;
+  position: relative;
+  right: calc(20vw);
 }
 
 #image5 {
@@ -42,4 +44,16 @@ img#gif {
   position: relative;
   top: calc(20vh + 55%);
   right: calc(-10vw);
+}
+
+#image7 {
+  max-width: 130px;
+  position: relative;
+  left: calc(50%);
+  top: calc(40vh + 50%);
+}
+
+#image8 {
+  max-width: 130px;
+  position: relative;
 }

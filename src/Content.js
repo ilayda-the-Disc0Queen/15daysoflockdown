@@ -5,7 +5,6 @@ import gif from './images/fast-aligned-WIP.gif';
 
 const Content = () => {
   return (
-    <div>
       <div className="ui grid pictures">
         <div className="nine wide column"></div>
         <div className="four wide column">
@@ -27,8 +26,17 @@ const Content = () => {
         <div className="two wide column">
           <img id="image5" src={image} alt="image5"/>
         </div>
+        <div className="sixteen wide column"></div>
+        <div className="two wide column">
+          <img id="image5" src={image} alt="image6"/>
+        </div>
+        <div className="six wide column">
+          <img id="image7" src={image} alt="image7"/>
+        </div>
+        <div className="two wide column">
+          <img id="image8" src={image} alt="image8"/>
+        </div>
       </div>
-    </div>
   );
 };
 
