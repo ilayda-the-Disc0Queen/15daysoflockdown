@@ -3,11 +3,19 @@
 }
 
 #about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 10em;
   text-align: right;
   color: white;
+  height: 40px;
 }
 
 #contact {
   text-align: right;
   color: white;
 }
+
