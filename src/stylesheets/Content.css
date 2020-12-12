@@ -11,9 +11,35 @@ img {
   max-width: 10em;*/
 }
 
-#gif img {
+img#gif {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  padding-top: 4em;
+  max-width: 70vw;
+}
+
+#image2 {
+  margin-top: 20px;
+  position: relative;
+  left: calc(-1vw);
+  top: calc(80%);
+  max-width: 160px;
+}
+
+#image3 {
+  margin-left: 1em;
+  margin-bottom: 5em;
+}
+
+#image4 {
+  margin-top: 7em;
+  max-width: 130px;
+}
+
+#image5 {
+  max-width: 130px;
+  position: relative;
+  top: calc(20vh + 55%);
+  right: calc(-10vw);
 }

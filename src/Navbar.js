@@ -2,6 +2,7 @@ import React from 'react';
 import './stylesheets/Navbar.css';
 import aboutBtn from './images/about-button.png';
 import title from './images/website-title-white.png';
+import contactImage from './images/image.png';
 
 const Navbar = () => {
   return (
@@ -17,10 +18,8 @@ const Navbar = () => {
         </a>
         <div className="one wide right floated column"></div>
       </div>
-        <div id="description" class="fourteen wide column">A digital exhibition by Charlotte Holme</div>
-        <div class="one wide column">
-          <a id="contact" className="item" href="">contact</a>
-        </div>
+        <div id="description" className="fourteen wide column">A digital exhibition by Charlotte Holme</div>
+        <div id="contact" className="two wide column">Contact</div>
     </div>
   );
 };
