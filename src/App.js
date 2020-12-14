@@ -1,15 +1,16 @@
 import React from 'react';
-import ReactDOM from "react-dom";
 import Navbar from './Navbar';
 import Content from './Content';
-import ModalImage from './Popup';
+import ContactPopup from './ContactPopup';
+import AboutPopup from './AboutPopup';
 import 'semantic-ui-css/semantic.min.css'
 
-const App =({children}) => {
+const App =() => {
   return(
     <div className="container">
       <Navbar/>
-      <ModalImage/>
+      <ContactPopup/>
+      <AboutPopup/>
       <Content/>
     </div>
   );
