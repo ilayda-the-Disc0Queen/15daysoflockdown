@@ -2,4 +2,10 @@
   position: relative;
   top: calc(-21vh);
   left: calc(40vw);
+  max-width: 10em;
+  height: 40px;
+}
+
+#about:hover {
+  opacity: 0.8;
 }

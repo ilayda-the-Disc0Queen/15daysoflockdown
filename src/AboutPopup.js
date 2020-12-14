@@ -25,7 +25,7 @@ const AboutPopup = () => {
 
   const AboutButton = () => {
     return (
-     <img id="about" src={aboutBtn} alt="About button" onClick={() => dispatch({ type: 'open', size: 'fullscreen' })}/>
+      <img id="about" src={aboutBtn} alt="About button" onClick={() => dispatch({ type: 'open', size: 'fullscreen' })}/>
     );
   };
 
