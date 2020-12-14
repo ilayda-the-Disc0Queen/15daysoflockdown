@@ -1,7 +1,7 @@
 #about {
-  position: relative;
-  top: calc(-21vh);
-  left: calc(40vw);
+  position: absolute;
+  top: calc(2%);
+  left: 83vw;
   max-width: 10em;
   height: 40px;
 }

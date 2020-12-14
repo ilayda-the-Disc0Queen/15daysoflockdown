@@ -24,8 +24,8 @@
 
 #close-modal {
   font-family: Shree;
-  position: relative;
-  left: calc(90%);
-  top: calc(-9vh);
+  position: absolute;
+  left: calc(90vw);
+  top: calc(10%);
   background-color: black;
 }
