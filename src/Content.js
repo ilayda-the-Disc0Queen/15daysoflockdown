@@ -1,6 +1,7 @@
 import React from 'react';
 import './stylesheets/Content.css'
 import image from './images/image.png';
+import screenshot from './images/gifscreenshot.png';
 import gif from './images/fast-aligned-WIP.gif';
 
 const Content = () => {
@@ -34,7 +35,7 @@ const Content = () => {
           <img id="image7" src={image} alt="image7"/>
         </div>
         <div className="two wide column">
-          <img id="image8" src={image} alt="image8"/>
+          <img id="image8" src={screenshot} alt="image8"/>
         </div>
       </div>
   );

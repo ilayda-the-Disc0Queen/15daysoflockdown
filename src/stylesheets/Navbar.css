@@ -17,10 +17,7 @@
        local("Helvetica Neue Light Italic"),
        local(".LucidaGrandeUI"),
        local("Ubuntu Light"),
-       local("Segoe UI Light"),
-       local("Roboto-Light"),
-       local("DroidSans"),
-       local("Tahoma");
+       local("Segoe UI Light")
 }
 
 /* Now, let's apply it on an element */
