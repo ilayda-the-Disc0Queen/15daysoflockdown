@@ -40,24 +40,23 @@ img#gif {
 }
 
 #image5 {
+  right: calc(-15vw);
   max-width: 130px;
   position: relative;
-  top: calc(20vh + 55%);
-  right: calc(-10vw);
 }
 
 #image6 {
   max-width: 130px;
-  position: relative;
+  position: absolute;
   top: calc(40vh);
-  right: calc(-10vw);
+  left: 8vw;
 }
 
 #image7 {
+  bottom: -50vh;
   max-width: 130px;
   position: relative;
-  left: calc(50%);
-  top: calc(40vh + 50%);
+  left: 50vw;
 }
 
 #image8 {
