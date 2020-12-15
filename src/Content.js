@@ -20,8 +20,8 @@ const Content = () => {
         </div>
         <div className="sixteen wide column">
           <img id="gif" src={gif} alt="gif of moving light"/>
-          <audio controls id="audio">
-            <source src={mp3} loop="loop" type="audio/mpeg"/>
+          <audio controls loop id="audio">
+            <source src={mp3} type="audio/mpeg"/>
           Your browser does not support the audio element.
           </audio>
         </div>
@@ -34,7 +34,7 @@ const Content = () => {
         </div>
         <div className="sixteen wide column"></div>
         <div className="two wide column">
-          <img id="image5" src={image} alt="image6"/>
+          <img id="image6" src={image} alt="image6"/>
         </div>
         <div className="six wide column">
           <img id="image7" src={image} alt="image7"/>

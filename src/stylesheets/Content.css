@@ -46,6 +46,13 @@ img#gif {
   right: calc(-10vw);
 }
 
+#image6 {
+  max-width: 130px;
+  position: relative;
+  top: calc(40vh);
+  right: calc(-10vw);
+}
+
 #image7 {
   max-width: 130px;
   position: relative;
