@@ -17,7 +17,7 @@ function exampleReducer(state, action) {
 const ContactPopup = () => {
   const [state, dispatch] = React.useReducer(exampleReducer, {
     open: false,
-    size: undefined,
+    size: undefined
   })
   const { open, size } = state
 
@@ -31,7 +31,7 @@ const ContactPopup = () => {
 
  return (
     <>
-      <ContactButton/>
+      <ContactButton />
       <Modal
         size={size}
         open={open}

@@ -3,6 +3,7 @@ import './stylesheets/Content.css'
 import image from './images/image.png';
 import screenshot from './images/gifscreenshot.png';
 import gif from './images/fast-aligned-WIP.gif';
+import mp3 from './audio/shedonttext.mp3';
 
 const Content = () => {
   return (
@@ -19,6 +20,10 @@ const Content = () => {
         </div>
         <div className="sixteen wide column">
           <img id="gif" src={gif} alt="gif of moving light"/>
+          <audio controls id="audio">
+            <source src={mp3} loop="loop" type="audio/mpeg"/>
+          Your browser does not support the audio element.
+          </audio>
         </div>
         <div className="eight wide column"></div>
         <div className="three wide column">

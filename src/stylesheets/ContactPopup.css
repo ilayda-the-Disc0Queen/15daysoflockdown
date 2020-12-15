@@ -4,6 +4,7 @@
 
 #actions {
   background: black;
+  border-top: 0;
 }
 
 @font-face {
@@ -25,4 +26,12 @@
   left: calc(90vw);
   top: calc(10%);
   background-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.ui.fullscreen.scrolling.modal.transition.visible.active {
+  width: 100%!important;
 }
