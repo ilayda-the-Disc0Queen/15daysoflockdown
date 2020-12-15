@@ -1,7 +1,6 @@
 #about {
   position: absolute;
-  top: calc(2%);
-  left: 83vw;
+  right: 2vw;
   max-width: 10em;
   height: 40px;
 }

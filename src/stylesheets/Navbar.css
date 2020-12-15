@@ -2,35 +2,13 @@
   color: white;
 }
 
-#contact {
-  text-align: right;
-  color: white;
-}
-
-@font-face {
-  font-family: Shree;
-  font-style: italic;
-  font-weight: 300;
-  src: local("ShreeDev0714-Italic"),
-       local("Shree Devanagari 714 Italic"),
-       local("HelveticaNeue-LightItalic"),
-       local("Helvetica Neue Light Italic"),
-       local(".LucidaGrandeUI"),
-       local("Ubuntu Light"),
-       local("Segoe UI Light")
-}
-
-/* Now, let's apply it on an element */
-#contact {
-  font-family: "Shree";
-}
-
 #description {
-  font-family: "Shree";
+  max-width: 25em;
+  float: left;
 }
 
 #title {
-  max-width: 35em;
+  max-width: 38em;
 }
 
 .ui.grid>.column:not(.row) {

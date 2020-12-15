@@ -1,7 +1,8 @@
 import React from 'react';
-import { Button, Image, Modal, Icon } from 'semantic-ui-react';
+import { Image, Modal, Icon } from 'semantic-ui-react';
 import './stylesheets/ContactPopup.css';
 import image from './images/pop-up-description.png';
+import contact from './images/contact.png';
 
 function exampleReducer(state, action) {
   switch (action.type) {
@@ -23,9 +24,7 @@ const ContactPopup = () => {
 
   const ContactButton = () => {
     return(
-      <Button secondary id="close-modal" className="ui secondary button" onClick={() => dispatch({ type: 'open', size: 'fullscreen' })}>
-        Contact
-      </Button>
+      <img id="contact" className="ui sticky" src={contact} alt="About button" onClick={() => dispatch({ type: 'open', size: 'fullscreen' })}/>
     );
   };
 

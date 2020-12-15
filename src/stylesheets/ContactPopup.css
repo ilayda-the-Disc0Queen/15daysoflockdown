@@ -7,7 +7,7 @@
   border-top: 0;
 }
 
-@font-face {
+/*@font-face {
   font-family: Shree;
   font-style: italic;
   font-weight: 300;
@@ -18,7 +18,7 @@
        local(".LucidaGrandeUI"),
        local("Ubuntu Light"),
        local("Segoe UI Light")
-}
+}*/
 
 #close-modal {
   font-family: Shree;
@@ -34,4 +34,10 @@
 
 .ui.fullscreen.scrolling.modal.transition.visible.active {
   width: 100%!important;
+}
+
+#contact {
+  max-width: 5em;
+  position: relative;
+  left: -1vw;
 }

@@ -74,8 +74,8 @@ img#gif {
   margin-right: auto;
   display: block;
   filter: contrast(100%) invert(100%);
-  width: 30em;
-  height: 4em;
+  width: 50vw;
+  height: 5vh;
 }
 
 .ui.fullscreen.modal {
