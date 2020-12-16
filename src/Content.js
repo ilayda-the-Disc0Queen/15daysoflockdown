@@ -8,7 +8,6 @@ import image_5 from './images/image_5.png';
 import image_6 from './images/image_6.png';
 import image_7 from './images/image_7.png';
 import image_8 from './images/image_8.png';
-// import screenshot from './images/gifscreenshot.png';
 import gif from './images/fast-aligned-WIP.gif';
 import mp3 from './audio/shedonttext.mp3';
 
