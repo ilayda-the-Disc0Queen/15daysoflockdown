@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px) {
-    /* styles for browsers larger than 960px; */
+    /* styles for browsers larger than 768px; */
   #title {
       max-width: 50vw;
     }
@@ -20,6 +20,72 @@
     padding-bottom: 5%;
     padding-top: 5%;
   }
+
+  /*images*/
+
+  #image1 {
+    max-width: 30%;
+    right: 20%;
+    position: absolute;
+  }
+
+  #image2 {
+    position: absolute;
+    left: 83%;
+    top: 50%;
+    max-width: 10%;
+  }
+
+  #image3 {
+    max-width: 20%;
+    position: absolute;
+    top: 56%;
+    left: 2%;
+  }
+
+  .gifImage {
+    position: absolute;
+    top: 86%;
+    max-width: 60%;
+    left: 29%;
+  }
+
+  #image4 {
+    max-width: 20%;
+    position: absolute;
+    right: 4%;
+    top: 173%;
+  }
+
+  #image5 {
+    max-width: 20%;
+    position: absolute;
+    left: 4%;
+    top: 209%;
+  }
+
+  #image6 {
+    max-width: 10%;
+    position: absolute;
+    left: 29%;
+    top: 191%;
+  }
+
+  #image7 {
+    top: 240%;
+    max-width: 27%;
+    position: absolute;
+    left: 38%;
+    padding-bottom: 10%;
+  }
+
+  #image8 {
+    max-width: 10%;
+    position: absolute;
+    top: 250%;
+    right: 6%;
+  }
+
 }
 
 
