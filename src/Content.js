@@ -3,7 +3,7 @@ import './stylesheets/Content.css'
 import image_1 from './images/image_1.png';
 import image_2 from './images/image_2.png';
 import image_3 from './images/image_3.png';
-import image_4 from './images/image_4.png';
+import image_4 from './images/image_4.3f6fc74b.png';
 import image_5 from './images/image_5.png';
 import image_6 from './images/image_6.png';
 import image_7 from './images/image_7.png';
