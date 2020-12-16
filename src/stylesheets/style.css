@@ -234,7 +234,7 @@
   /*images*/
 
   #image1 {
-    max-width: 160px;
+    max-width: 43%;
     left: 4%;
     position: absolute;
   }
@@ -243,44 +243,45 @@
     position: absolute;
     left: 50%;
     top: 43%;
-    max-width: 160px;
+    max-width: 35%;
   }
 
   #image3 {
-    max-width: 160px;
+    max-width: 46%;
     position: absolute;
-    top: 90%;
+    top: 79%;
     left: 2%;
   }
 
   .gifImage {
     position: absolute;
-    top: 130%;
+    top: 114%;
   }
 
   #image4 {
-    max-width: 150px;
+    max-width: 43%;
     position: absolute;
     right: 1%;
-    top: 190%;
+    top: 175%;
   }
 
   #image5 {
-    max-width: 170px;
+    max-width: 46%;
     position: absolute;
-    left: 5%;
-    top: 222%;
+    left: 13%;
+    top: 210%;
   }
 
   #image6 {
-    max-width: 90px;
+    max-width: 27%;
     position: absolute;
-    left: 30%;
-    top: 202%;
+    left: 24%;
+    top: 185%;
+
   }
 
   #image7 {
-    top: 260%;
+    top: 243%;
     max-width: 190px;
     position: absolute;
     left: 35%;
@@ -289,9 +290,9 @@
   #image8 {
     max-width: 100px;
     position: absolute;
-    top: 285%;
+    top: 270%;
     right: 3%;
-    margin-bottom: 20%
+    padding-bottom: 10%
   }
 
 
