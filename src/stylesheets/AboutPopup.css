@@ -8,3 +8,11 @@
 #about:hover {
   opacity: 0.8;
 }
+
+#content {
+  background-color: black;
+}
+
+#actions {
+  background-color: black;
+}

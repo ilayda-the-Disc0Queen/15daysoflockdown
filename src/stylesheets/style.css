@@ -9,8 +9,9 @@
   }
 
   #contact {
-    right: 3%;
+    right: 10%;
     max-width: 7vw;
+    position: absolute;
   }
 
   #about {
@@ -97,16 +98,17 @@
 @media only screen and (max-width: 768px) {
     /* styles for tablets - default ipad screen */
   #title {
-      max-width: 60vw;
+      max-width: 85%;
     }
 
   #description {
-    max-width: 40vw;
+    max-width: 50%;
   }
 
   #contact {
     right: 2%;
     top: 15%;
+    max-width: 20%;
   }
 
   #audio {
