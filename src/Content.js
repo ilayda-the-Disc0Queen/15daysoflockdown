@@ -1,47 +1,35 @@
 import React from 'react';
 import './stylesheets/Content.css'
-import image from './images/image.png';
-import screenshot from './images/gifscreenshot.png';
+import image_1 from './images/image_1.png';
+import image_2 from './images/image_2.png';
+import image_3 from './images/image_3.png';
+import image_4 from './images/image_4.png';
+import image_5 from './images/image_5.png';
+import image_6 from './images/image_6.png';
+import image_7 from './images/image_7.png';
+import image_8 from './images/image_8.png';
+// import screenshot from './images/gifscreenshot.png';
 import gif from './images/fast-aligned-WIP.gif';
 import mp3 from './audio/shedonttext.mp3';
 
 const Content = () => {
   return (
-      <div className="ui grid pictures">
-        <div className="nine wide column"></div>
-        <div className="four wide column">
-          <img className="ui fluid image" src={image} alt="image1"/>
-        </div>
-        <div className="one wide column">
-          <img id="image2" src={image} alt="image2"/>
-        </div>
-        <div className="three wide column">
-          <img id="image3" className="ui fluid image" src={image} alt="image3"/>
-        </div>
-        <div className="sixteen wide column">
+      <div className="container">
+        <img id="image1" src={image_1} alt="image1"/>
+        <img id="image2" src={image_2} alt="image2"/>
+        <img id="image3" src={image_3} alt="image3"/>
+        <div className="gifImage">
           <img id="gif" src={gif} alt="gif of moving light"/>
           <audio controls loop id="audio">
             <source src={mp3} type="audio/mpeg"/>
-          Your browser does not support the audio element.
+            Your browser does not support the audio element.
           </audio>
         </div>
-        <div className="eight wide column"></div>
-        <div className="three wide column">
-          <img id="image4" src={image} alt="image4"/>
-        </div>
-        <div className="two wide column">
-          <img id="image5" src={image} alt="image5"/>
-        </div>
-        <div className="sixteen wide column"></div>
-        <div className="two wide column">
-          <img id="image6" src={image} alt="image6"/>
-        </div>
-        <div className="six wide column">
-          <img id="image7" src={image} alt="image7"/>
-        </div>
-        <div className="two wide column">
-          <img id="image8" src={screenshot} alt="image8"/>
-        </div>
+        <img id="image4" src={image_4} alt="image4"/>
+        <img id="image5" src={image_5} alt="image5"/>
+        <img id="image6" src={image_6} alt="image6"/>
+        <img id="image7" src={image_7} alt="image7"/>
+        <img id="image8" src={image_8} alt="image8"/>
       </div>
   );
 };

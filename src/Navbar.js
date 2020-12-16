@@ -7,7 +7,7 @@ import ContactPopup from './ContactPopup';
 
 const Navbar = () => {
   return (
-    <React.Fragment>
+    <div className="container">
       <div id="top" className="ui grid navbar stackable">
         <div className="four wide left floated column">
           <img id="title" className="item title" src={title} alt="Fifteen days of lockdown"/>
@@ -20,10 +20,9 @@ const Navbar = () => {
         </div>
         <div id="contact" className="one wide right floated column"><ContactPopup/></div>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 
 export default Navbar
 
-// <div id="contact" className="two wide column">Contact</div>

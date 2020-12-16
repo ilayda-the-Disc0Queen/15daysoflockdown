@@ -2,67 +2,20 @@
   background-color: black;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /*margin-top: 7em;
-  margin-bottom: 4em;
-  max-width: 10em;*/
-}
+.gifImage {
+    display: block;
+    margin: auto 0;
+  }
 
 img#gif {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 4em;
-  max-width: 70vw;
+  max-width: 90%;
 }
 
-#image2 {
-  margin-top: 20px;
-  position: relative;
-  left: calc(-1vw);
-  top: calc(80%);
-  max-width: 160px;
-}
 
-#image3 {
-  margin-left: 1em;
-  margin-bottom: 5em;
-}
-
-#image4 {
-  margin-top: 7em;
-  max-width: 130px;
-  position: relative;
-  right: calc(20vw);
-}
-
-#image5 {
-  right: calc(-15vw);
-  max-width: 130px;
-  position: relative;
-}
-
-#image6 {
-  max-width: 130px;
-  position: absolute;
-  top: calc(40vh);
-  left: 8vw;
-}
-
-#image7 {
-  bottom: -50vh;
-  max-width: 130px;
-  position: relative;
-  left: 50vw;
-}
-
-#image8 {
-  max-width: 130px;
-  position: relative;
-}
 
 #gif {
   position: relative;
@@ -73,10 +26,16 @@ img#gif {
   margin-right: auto;
   display: block;
   filter: invert(100%)!important;
-  width: 50vw;
-  height: 5vh;
+  background-color: rgba(26, 26, 26, 0);
+  color: #060000;
+  width: 90%;
 }
 
 .ui.fullscreen.modal {
   width: 100%!important;
 }
+/*
+.controlBar {
+  background-color: rgba(26, 26, 26, 0);
+  color: #060000;
+}*/

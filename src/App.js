@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Content from './Content';
-import 'semantic-ui-css/semantic.min.css'
+import 'semantic-ui-css/semantic.min.css';
+import './stylesheets/style.css';
 
 const App =() => {
   return(
