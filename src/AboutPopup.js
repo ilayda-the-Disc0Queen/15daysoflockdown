@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Modal, Icon } from 'semantic-ui-react';
 import './stylesheets/AboutPopup.css'
 import aboutBtn from './images/about-button.png';
-import image from './images/pop-up-description.png';
+import image from './images/pop-up-description_smaller.png';
 
 
 function exampleReducer(state, action) {
@@ -25,7 +25,7 @@ const AboutPopup = () => {
 
   const AboutButton = () => {
     return (
-      <img id="about" className="ui sticky" src={aboutBtn} alt="About button" onClick={() => dispatch({ type: 'open', size: 'fullscreen' })}/>
+      <img id="about" className="ui sticky" src={aboutBtn} alt="About button" onClick={() => dispatch({ type: 'open', size: 'large' })}/>
     );
   };
 
